@@ -17,6 +17,9 @@ Luego tirar en la raiz del proyecto composer update
 
 =======================================================
 
+-> Tengo que hacer el login con php para poder usar tokens JWT y 
+discriminar entre los perfiles. Creandose distintas paginas para cada uno.
+
 -> Obiviamente se debera de modificar varias cosas, pero por ahora:
 
 -> La idea es que las cards de comida se carguen dinamicamente dentro de lo posible.
