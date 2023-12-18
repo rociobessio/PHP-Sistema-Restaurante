@@ -1,0 +1,27 @@
+Dotend => instalar composer require vlucas/phpdotenv  
+
+hacerlo correr al SLIM:
+abrir xampp
+
+php -S localhost:666 -t app
+
+luego en el navegador poner localhost:666 
+
+cerrar servidor ctrl + C
+
+AUTENTIFICADOR JWT:
+1ro tirar: composer require firebase/php-jwt
+
+2do: en el composer.json poner: "firebase/php-jwt":"4.0"
+Luego tirar en la raiz del proyecto composer update
+
+=======================================================
+
+-> Obiviamente se debera de modificar varias cosas, pero por ahora:
+
+-> La idea es que las cards de comida se carguen dinamicamente dentro de lo posible.
+
+-> Se podria realizar login el cual discriminara los distintos perfiles y que puede hacer cada uno
+los perfiles de preparadores y mozos mantenerlos simples. Solo cambiara el de socios/administrador.
+
+-> Al ordenar los pedidos se debera tambien guardar la mesa.

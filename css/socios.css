@@ -1,0 +1,72 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    /* border: 1px solid brown; */
+    padding: 1%;
+    width: 80%;
+    margin: auto;
+}
+
+.en-linea{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* Para el footer de la pagina */
+.footer{
+    background-color:  rgb(186, 147, 97);
+}
+
+/* Para el header */
+/* Navbar - menu */
+.menu{
+    line-height: 60px;
+    border-bottom: 1px solid rgb(82, 55, 20);
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+a{
+    color: rgb(186, 147, 97);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(137, 101, 53);
+}
+
+.menu a:hover{
+    border-bottom: 3px solid  rgb(82, 55, 20);
+    transition: 0.6s;
+}
+
+/* Contenido principal de la pagina */
+.main-content{
+    /* margin: 1% 0; */
+    background-color: rgb(186, 147, 97);
+    padding: 3% 0;
+}
+
+/* Cajas Panel */
+.col-4{
+    width: 18%;
+    background-color: rgb(235, 208, 158);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
